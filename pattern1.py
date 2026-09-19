@@ -3,7 +3,8 @@
 class Solution:
     def main(self, n:int) -> int:
         for i in range(n):
-            print("*" * n)
+            for j in range(n):
+                print("*", end="")
             print()
 
 obj = Solution()
