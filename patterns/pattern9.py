@@ -1,0 +1,13 @@
+class Solution:
+    def main(self, n:int) -> int:
+        for i in range(n):
+            for j in range(i+1):
+                if((i + j) % 2 == 0):
+                    print("1", end=" ")
+                else:
+                    print("0", end=" ")
+            print()
+
+
+obj = Solution()
+obj.main(5)
